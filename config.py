@@ -7,9 +7,9 @@ class Config(object):
         self.h_dim = 100
         self.z_dim = 16
         self.n_layers = 1
-        self.n_epochs = 1
-        self.clip = 10
-        self.batch_size = 512
+        self.n_epochs = 100
+        self.clip = 5
+        self.batch_size = 256
         self.learning_rate = 0.001
         
         # other
