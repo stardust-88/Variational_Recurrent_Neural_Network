@@ -4,6 +4,8 @@ Implemented this novel architecture (in pytorch) as part of my research study fo
 during my work as a <b>Research Intern</b> at <b>Language Technology Research Center, IIIT Hyderabad, India.</b><br>
 
 <b>Note</b>: Still working on it to get better and more observations.
+
+<b>Wrote a blog also on medium:</b> <a href="https://medium.com/@deep_space/variational-recurrent-neural-networks-vrnns-3b836adad399">Variational Recurrent Neural Networks - VRNNs</a>
 <hr>
 
 Variational Recurrent Neural Networks are a class of latent variable models for sequential data. The major idea behind this work is the inclusion of latent random variables at every time step of the RNN, or more specifically, it contains variational autoencoder at each and every time step of the RNN.
