@@ -138,7 +138,7 @@ class VRNN(nn.Module):
             prior_var_t = self.prior_var(prior_t)
             
             # reparameterization
-            z_t = self.reparameterize(encoder_mean_t, encoder_var_t)
+            z_t = self.reparameterize(encoder_mean_t, encoder_var_t, x.device)
             
             # feature extraction for z_t
             phi_z_t = self.phi_z(z_t)
