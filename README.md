@@ -1,6 +1,6 @@
 # Variational_Recurrent_Neural_Networks
 
-Implemented this novel architecture (in pytorch) as part of my research study for the problem I am focusing on, 
+Implemented this novel architecture (in pytorch) as part of my research study for the problem I focused on, 
 during my work as a <b>Research Intern</b> at <b>Language Technology Research Center, IIIT Hyderabad, India.</b><br>
 
 
