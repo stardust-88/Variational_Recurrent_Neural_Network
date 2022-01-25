@@ -10,6 +10,7 @@ during my work as a <b>Research Intern</b> at <b>Language Technology Research Ce
 Variational Recurrent Neural Networks are a class of latent variable models for sequential data. The major idea behind this work is the inclusion of latent random variables at every time step of the RNN, or more specifically, it contains variational autoencoder at each and every time step of the RNN.
 
 <h3>High level structure of VRNN</h3>
+![High level structure of VRNN](/img/vrnn_highlevel.jpeg)
 
 
 This is the result of the work by Junyoung et al. - <a href="https://arxiv.org/pdf/1506.02216.pdf">A Latent Variable Model For Sequential Data</a>
