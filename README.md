@@ -3,12 +3,14 @@
 Implemented this novel architecture (in pytorch) as part of my research study for the problem I am focusing on, 
 during my work as a <b>Research Intern</b> at <b>Language Technology Research Center, IIIT Hyderabad, India.</b><br>
 
-<b>Note</b>: Still working on it to get better and more observations.
 
-<b>Wrote a blog also on medium:</b> <a href="https://medium.com/@deep_space/variational-recurrent-neural-networks-vrnns-3b836adad399">Variational Recurrent Neural Networks - VRNNs</a>
+<b>Wrote a blog on medium:</b> <a href="https://medium.com/@deep_space/variational-recurrent-neural-networks-vrnns-3b836adad399">Variational Recurrent Neural Networks - VRNNs</a>
 <hr>
 
 Variational Recurrent Neural Networks are a class of latent variable models for sequential data. The major idea behind this work is the inclusion of latent random variables at every time step of the RNN, or more specifically, it contains variational autoencoder at each and every time step of the RNN.
+
+<h3>High level structure of VRNN</h3>
+
 
 This is the result of the work by Junyoung et al. - <a href="https://arxiv.org/pdf/1506.02216.pdf">A Latent Variable Model For Sequential Data</a>
 
@@ -22,10 +24,14 @@ that latent random variables can play in the RNN dynamics."</i>
 
 <hr>
 
-### Run:
+### Running codes:
 
-To train: ```python train.py```<br>
-To sample from the saved model: ```python sample.py```
+For training: <br>
+Navigate to the src folder and run the command: ```python train.py```<br>
+
+For sampling:<br>
+Navigate to the src folder and:
+1. For sampling from the **prior** distribution: ```python sample_from_prior.py``` 
+2. For sampling from **posterior** distribution: ```python sample_from_posterior.py```<br>
+(uncomment the get_data() line in main function (in sample_from_posterior.py) for which you want to get posterior samples)
 <br>
-
-<b>Note</b>: parameters folder (it will have model's parameters) is empty currently. Soon it will be updated with results.
